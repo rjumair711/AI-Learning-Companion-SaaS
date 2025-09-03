@@ -1,3 +1,6 @@
+export const revalidate = 0; // disables caching
+
+
 import CompanionComponent from '@/components/CompanionComponent';
 import { getCompanion } from '@/lib/actions/companion.actions';
 import { getSubjectColor } from '@/lib/utils';

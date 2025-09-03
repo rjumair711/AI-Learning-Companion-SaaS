@@ -1,3 +1,6 @@
+export const revalidate = 0; // disables caching
+
+
 // app/page.tsx
 import CompanionCard from '@/components/CompanionCard';
 import CompanionsList from '@/components/CompanionsList';
